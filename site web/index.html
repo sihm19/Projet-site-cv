@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio – Amarouchi Sihame</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <script src="./script/main.js" defer></script>
+</head>
+<body>
+  <div class="background">
+    <svg class="bg-svg" viewBox="0 0 1440 320" preserveAspectRatio="none">
+      <path fill="rgba(255,255,255,0.2)" d="M0,160L80,165.3C160,171,320,181,480,165.3C640,149,800,107,960,112C1120,117,1280,171,1360,197.3L1440,224L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path>
+    </svg>
+
+    <!-- PROFIL EN HAUT -->
+    <section class="profile-card">
+      <img src="./img/avatar.png" alt="Photo de profil" class="profile-photo" />
+      <div class="profile-info">
+        <h1>Amarouchi Sihame</h1>
+        <h2>Développeuse Web Junior</h2>
+        <p>Email : <a href="mailto:exemple@mail.com">exemple@mail.com</a></p>
+        <p>Téléphone : +32 000 000 000</p>
+        <p>Bruxelles, Belgique</p>
+        <p class="desc">
+          Passionnée par la création d’interfaces modernes et intuitives,
+          je développe des solutions web élégantes et performantes.
+          Curieuse et motivée, j’aime apprendre et relever de nouveaux défis
+          dans le domaine du développement front-end et back-end.
+        </p>
+      </div>
+    </section>
+
+    <!-- CONTENU PRINCIPAL -->
+    <div class="layout">
+      <!-- SIDEBAR -->
+      <aside class="sidebar">
+        <h3>Menu</h3>
+        <ul>
+          <li><a href="#" class="active" data-section="competences">Compétences</a></li>
+          <li><a href="#" data-section="experiences">Expériences</a></li>
+          <li><a href="#" data-section="portfolio">Portfolio</a></li>
+          <li><a href="#" data-section="contact" class="contact-btn">Contact</a></li>
+        </ul>
+      </aside>
+
+      <!-- SECTIONS -->
+      <main class="content">
+        <section id="competences" class="section active">
+          <h2>Compétences</h2>
+          <div class="grid">
+            <div class="card"><h4>Frontend</h4><p>HTML · CSS · JS</p></div>
+            <div class="card"><h4>Backend</h4><p>PHP · Symfony · MySQL</p></div>
+            <div class="card"><h4>Frameworks</h4><p>React · Vue</p></div>
+            <div class="card"><h4>Design</h4><p>Figma · Adobe</p></div>
+          </div>
+        </section>
+
+        <section id="experiences" class="section">
+          <h2>Expériences</h2>
+          <ul class="timeline">
+            <li><strong>2024</strong> — Stage Développement Web – Agence Digitale</li>
+            <li><strong>2023</strong> — Freelance – Sites vitrines</li>
+          </ul>
+        </section>
+
+        <section id="portfolio" class="section">
+          <h2>Portfolio</h2>
+          <div class="grid">
+            <div class="card">🌐 Site de réservation</div>
+            <div class="card">☁️ Application météo</div>
+            <div class="card">💼 Portfolio personnel</div>
+          </div>
+        </section>
+
+        <section id="contact" class="section">
+          <h2>Contact</h2>
+          <p>Pour me contacter :</p>
+          <p><strong>Email</strong> : <a href="mailto:exemple@mail.com">exemple@mail.com</a></p>
+          <p><strong>Téléphone</strong> : +32 000 000 000</p>
+          <p><strong>LinkedIn</strong> : <a href="#">linkedin.com/in/amarouchi-sihame</a></p>
+        </section>
+      </main>
+    </div>
+  </div>
+</body>
+</html>
